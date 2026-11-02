@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "mithilsky-recsys_jd208"
+name = "mithilsky-cache_hit_attribution_pattern_locate"
 version = "0.1.0"
 description = "用一组明示的正则规则扫描输入，报告推荐系统算法工程师·缓存命中率的归因相关的命中行与片段"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://mithilsky.github.io"
-Repository = "https://github.com/mithilsky/recsys_jd208"
-Issues = "https://github.com/mithilsky/recsys_jd208/issues"
+Repository = "https://github.com/mithilsky/cache_hit_attribution_pattern_locate"
+Issues = "https://github.com/mithilsky/cache_hit_attribution_pattern_locate/issues"
 
 [project.scripts]
-recsys_jd208 = "recsys_jd208:main"
+cache_hit_attribution_pattern_locate = "cache_hit_attribution_pattern_locate:main"
 
 [tool.setuptools]
-py-modules = ["recsys_jd208"]
+py-modules = ["cache_hit_attribution_pattern_locate"]

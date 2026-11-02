@@ -1,11 +1,11 @@
-# recsys_jd208
+# cache_hit_attribution_pattern_locate
 
 **用规则在推荐系统算法工程师·缓存命中率的归因里定位可疑位置。**
 
-`recsys_jd208` —— 用一组明示的正则规则扫描输入，报告推荐系统算法工程师·缓存命中率的归因相关的命中行与片段
+`cache_hit_attribution_pattern_locate` —— 用一组明示的正则规则扫描输入，报告推荐系统算法工程师·缓存命中率的归因相关的命中行与片段
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`recsys_jd208.py` 拷走就能用
+- 单文件，`cache_hit_attribution_pattern_locate.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install mithilsky-recsys_jd208
+pip install mithilsky-cache_hit_attribution_pattern_locate
 ```
 
 装完直接用命令名调用：
 
 ```bash
-recsys_jd208 --help
+cache_hit_attribution_pattern_locate --help
 ```
 
-也可以不用安装，直接把 `recsys_jd208.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `cache_hit_attribution_pattern_locate.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ recsys_jd208 --help
 ## 用法
 
 ```bash
-python recsys_jd208.py --file input.txt
-python recsys_jd208.py --text "示例内容"
-python recsys_jd208.py --file input.txt --json
+python cache_hit_attribution_pattern_locate.py --file input.txt
+python cache_hit_attribution_pattern_locate.py --text "示例内容"
+python cache_hit_attribution_pattern_locate.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python recsys_jd208.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_recsys_jd208.py
+python test_cache_hit_attribution_pattern_locate.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_recsys_jd208.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/mithilsky/recsys_jd208>
+- GitHub 仓库：<https://github.com/mithilsky/cache_hit_attribution_pattern_locate>
 
 ---
 
@@ -79,7 +79,7 @@ python test_recsys_jd208.py
 mithilsky 做推荐系统算法工程师·缓存命中率的归因相关的问题，方向对标面壁智能的专家推荐系统算法工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://mithilsky.github.io>
-- 仓库：<https://github.com/mithilsky/recsys_jd208>
+- 仓库：<https://github.com/mithilsky/cache_hit_attribution_pattern_locate>
 
 ## 许可
 
